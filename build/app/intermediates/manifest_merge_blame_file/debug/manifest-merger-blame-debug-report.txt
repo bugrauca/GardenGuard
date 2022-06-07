@@ -1,0 +1,338 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.garden_guard"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:5:5-67
+14-->/Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:3:5-79
+15-->/Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:3:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:4:5-81
+16-->/Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:4:22-78
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-68
+17-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-65
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+18-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+19-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
+20-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-63
+21    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+21-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+21-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+22    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-79
+22-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-76
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+23-->[com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:5-82
+23-->[com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:22-79
+24
+25    <application
+26        android:name="android.app.Application"
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.6.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/954d2620bd62951f5277d353a9c4310b/core-1.6.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+30        android:label="garden_guard" >
+31        <activity
+32            android:name="com.example.garden_guard.MainActivity"
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34            android:exported="true"
+35            android:hardwareAccelerated="true"
+36            android:launchMode="singleTop"
+37            android:theme="@style/LaunchTheme"
+38            android:windowSoftInputMode="adjustResize" >
+39
+40            <!--
+41                 Specifies an Android theme to apply to this Activity as soon as
+42                 the Android process has started. This theme is visible to the user
+43                 while the Flutter UI initializes. After that, this theme continues
+44                 to determine the Window background behind the Flutter UI.
+45            -->
+46            <meta-data
+47                android:name="io.flutter.embedding.android.NormalTheme"
+48                android:resource="@style/NormalTheme" />
+49
+50            <intent-filter>
+51                <action android:name="android.intent.action.MAIN" />
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+54            </intent-filter>
+55            <intent-filter>
+56                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+57
+58                <category android:name="android.intent.category.DEFAULT" />
+59            </intent-filter>
+60        </activity>
+61        <!--
+62             Don't delete the meta-data below.
+63             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+64        -->
+65        <meta-data
+66            android:name="flutterEmbedding"
+67            android:value="2" />
+68
+69        <service
+69-->[:firebase_database] /Users/bugra/Documents/Path/garden_guard/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+70            android:name="com.google.firebase.components.ComponentDiscoveryService"
+70-->[:firebase_database] /Users/bugra/Documents/Path/garden_guard/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+71            android:directBootAware="true"
+71-->[com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+72            android:exported="false" >
+72-->[com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:54:13-37
+73            <meta-data
+73-->[:firebase_database] /Users/bugra/Documents/Path/garden_guard/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+74-->[:firebase_database] /Users/bugra/Documents/Path/garden_guard/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:firebase_database] /Users/bugra/Documents/Path/garden_guard/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+76            <meta-data
+76-->[:cloud_firestore] /Users/bugra/Documents/Path/garden_guard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+77-->[:cloud_firestore] /Users/bugra/Documents/Path/garden_guard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[:cloud_firestore] /Users/bugra/Documents/Path/garden_guard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+79            <meta-data
+79-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-36:85
+80                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+80-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:35:17-128
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-82
+82            <meta-data
+82-->[:firebase_core] /Users/bugra/Documents/Path/garden_guard/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+83                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+83-->[:firebase_core] /Users/bugra/Documents/Path/garden_guard/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[:firebase_core] /Users/bugra/Documents/Path/garden_guard/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:55:13-57:85
+86                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+86-->[com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:56:17-119
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:57:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-datatransport:18.1.4] /Users/bugra/.gradle/caches/transforms-2/files-2.1/1b10fc0016933ae41ac2c91fc771c4f6/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:28:13-30:85
+89                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+89-->[com.google.firebase:firebase-datatransport:18.1.4] /Users/bugra/.gradle/caches/transforms-2/files-2.1/1b10fc0016933ae41ac2c91fc771c4f6/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:29:17-115
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-datatransport:18.1.4] /Users/bugra/.gradle/caches/transforms-2/files-2.1/1b10fc0016933ae41ac2c91fc771c4f6/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:30:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:20:13-22:85
+92                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+92-->[com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:21:17-111
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:22:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
+95                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+95-->[com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+98                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+98-->[com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+100        </service>
+101        <service
+101-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-15:72
+102            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+102-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-107
+103            android:exported="false"
+103-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+104            android:permission="android.permission.BIND_JOB_SERVICE" />
+104-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-69
+105        <service
+105-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-22:19
+106            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+106-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-97
+107            android:exported="false" >
+107-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+108            <intent-filter>
+108-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+109                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+109-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
+109-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+110            </intent-filter>
+111        </service>
+112
+113        <receiver
+113-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-31:20
+114            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+114-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-98
+115            android:exported="true"
+115-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-36
+116            android:permission="com.google.android.c2dm.permission.SEND" >
+116-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-73
+117            <intent-filter>
+117-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+118                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+118-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
+118-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+119            </intent-filter>
+120        </receiver>
+121
+122        <provider
+122-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-43:38
+123            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+123-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-102
+124            android:authorities="com.example.garden_guard.flutterfirebasemessaginginitprovider"
+124-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-88
+125            android:exported="false"
+125-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-37
+126            android:initOrder="99" />
+126-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-35
+127
+128        <receiver
+128-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-15:40
+129            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+129-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-97
+130            android:exported="false" />
+130-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+131        <receiver
+131-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-25:20
+132            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+132-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-101
+133            android:exported="false" >
+133-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+134            <intent-filter>
+134-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-24:29
+135                <action android:name="android.intent.action.BOOT_COMPLETED" />
+135-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-79
+135-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-76
+136                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+136-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-84
+136-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-81
+137                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+137-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-82
+137-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:25-79
+138                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+138-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:17-82
+138-->[:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:25-79
+139            </intent-filter>
+140        </receiver>
+141
+142        <uses-library
+142-->[androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+143            android:name="androidx.window.extensions"
+143-->[androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+144            android:required="false" />
+144-->[androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+145        <uses-library
+145-->[androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+146            android:name="androidx.window.sidecar"
+146-->[androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+147            android:required="false" />
+147-->[androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+148
+149        <receiver
+149-->[com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:31:9-38:20
+150            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+150-->[com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:32:13-78
+151            android:exported="true"
+151-->[com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:33:13-36
+152            android:permission="com.google.android.c2dm.permission.SEND" >
+152-->[com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:34:13-73
+153            <intent-filter>
+153-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+154                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+154-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
+154-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+155            </intent-filter>
+156        </receiver>
+157        <!--
+158             FirebaseMessagingService performs security checks at runtime,
+159             but set to not exported to explicitly avoid allowing another app to call it.
+160        -->
+161        <service
+161-->[com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:44:9-51:19
+162            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+162-->[com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:45:13-82
+163            android:directBootAware="true"
+163-->[com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:46:13-43
+164            android:exported="false" >
+164-->[com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:47:13-37
+165            <intent-filter android:priority="-500" >
+165-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+166                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+166-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
+166-->[:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+167            </intent-filter>
+168        </service>
+169        <service
+169-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:29:9-35:19
+170            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+170-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:30:13-103
+171            android:exported="false" >
+171-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:31:13-37
+172            <meta-data
+172-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:32:13-34:39
+173                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+173-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:33:17-94
+174                android:value="cct" />
+174-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:34:17-36
+175        </service>
+176        <service
+176-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:26:9-30:19
+177            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+177-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:27:13-117
+178            android:exported="false"
+178-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:28:13-37
+179            android:permission="android.permission.BIND_JOB_SERVICE" >
+179-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:29:13-69
+180        </service>
+181
+182        <receiver
+182-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:32:9-34:40
+183            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+183-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:33:13-132
+184            android:exported="false" />
+184-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:34:13-37
+185
+186        <provider
+186-->[com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+187            android:name="com.google.firebase.provider.FirebaseInitProvider"
+187-->[com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+188            android:authorities="com.example.garden_guard.firebaseinitprovider"
+188-->[com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+189            android:directBootAware="true"
+189-->[com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+190            android:exported="false"
+190-->[com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+191            android:initOrder="100" />
+191-->[com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+192
+193        <activity
+193-->[com.google.android.gms:play-services-base:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/66b4da009bd1e4ba7389f36859869486/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+194            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+194-->[com.google.android.gms:play-services-base:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/66b4da009bd1e4ba7389f36859869486/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+195            android:exported="false"
+195-->[com.google.android.gms:play-services-base:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/66b4da009bd1e4ba7389f36859869486/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+196            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+196-->[com.google.android.gms:play-services-base:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/66b4da009bd1e4ba7389f36859869486/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+197
+198        <meta-data
+198-->[com.google.android.gms:play-services-basement:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/300b621932f83f5409cb2d99186a86af/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+199            android:name="com.google.android.gms.version"
+199-->[com.google.android.gms:play-services-basement:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/300b621932f83f5409cb2d99186a86af/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+200            android:value="@integer/google_play_services_version" />
+200-->[com.google.android.gms:play-services-basement:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/300b621932f83f5409cb2d99186a86af/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+201    </application>
+202
+203</manifest>
