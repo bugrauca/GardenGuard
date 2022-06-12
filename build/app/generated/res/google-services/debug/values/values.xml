@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">161041119415-a9fs3ghk2jqrdln28auugct5hi06v7kt.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://gardenguard-62af1-default-rtdb.europe-west1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">161041119415</string>
+    <string name="google_api_key" translatable="false">AIzaSyBeDWMBho4fXKCi6E79VbFw_oZkNXqZIoI</string>
+    <string name="google_app_id" translatable="false">1:161041119415:android:b0a62aa39814b922377532</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBeDWMBho4fXKCi6E79VbFw_oZkNXqZIoI</string>
+    <string name="google_storage_bucket" translatable="false">gardenguard-62af1.appspot.com</string>
+    <string name="project_id" translatable="false">gardenguard-62af1</string>
+</resources>

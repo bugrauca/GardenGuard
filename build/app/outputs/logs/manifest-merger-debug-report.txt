@@ -1,0 +1,562 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:6:4-40:19
+MERGED from [:firebase_database] /Users/bugra/Documents/Path/garden_guard/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_database] /Users/bugra/Documents/Path/garden_guard/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/bugra/Documents/Path/garden_guard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/bugra/Documents/Path/garden_guard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-44:19
+MERGED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-44:19
+MERGED from [:firebase_core] /Users/bugra/Documents/Path/garden_guard/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/bugra/Documents/Path/garden_guard/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-26:19
+MERGED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-26:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/bugra/.gradle/caches/transforms-2/files-2.1/1b10fc0016933ae41ac2c91fc771c4f6/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/bugra/.gradle/caches/transforms-2/files-2.1/1b10fc0016933ae41ac2c91fc771c4f6/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/bc9254f9fcf7c007edc642833b1c842a/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/bc9254f9fcf7c007edc642833b1c842a/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/13d1a535b6d60fefc92cbf109dc689a4/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/13d1a535b6d60fefc92cbf109dc689a4/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/9b493b3190afcc1f57783030badda3aa/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/9b493b3190afcc1f57783030badda3aa/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/66b4da009bd1e4ba7389f36859869486/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/66b4da009bd1e4ba7389f36859869486/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/421d4f82e1e324b7abd82c1c5480bbf7/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/421d4f82e1e324b7abd82c1c5480bbf7/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/df62757c603fd9c3d43d07d7d5645172/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/df62757c603fd9c3d43d07d7d5645172/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/535f28a3dbe1b6e0a7f45f980b80d508/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/535f28a3dbe1b6e0a7f45f980b80d508/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/300b621932f83f5409cb2d99186a86af/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/300b621932f83f5409cb2d99186a86af/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.6.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/954d2620bd62951f5277d353a9c4310b/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/954d2620bd62951f5277d353a9c4310b/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/a909442aa7f946246429554384a4ea53/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/a909442aa7f946246429554384a4ea53/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/bugra/.gradle/caches/transforms-2/files-2.1/b1cf5e30a39df18fc6861b94002800dc/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/bugra/.gradle/caches/transforms-2/files-2.1/b1cf5e30a39df18fc6861b94002800dc/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/954d2620bd62951f5277d353a9c4310b/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:1:1-41:12
+MERGED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:1:1-41:12
+MERGED from [:firebase_database] /Users/bugra/Documents/Path/garden_guard/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore] /Users/bugra/Documents/Path/garden_guard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-46:12
+MERGED from [:firebase_core] /Users/bugra/Documents/Path/garden_guard/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-28:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/86669c2df96e2d0997eebe0a6352cb12/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:17:1-61:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/bugra/.gradle/caches/transforms-2/files-2.1/1b10fc0016933ae41ac2c91fc771c4f6/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/c16058d2685112af84a12bba2e290b42/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/bc9254f9fcf7c007edc642833b1c842a/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/13d1a535b6d60fefc92cbf109dc689a4/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/9b493b3190afcc1f57783030badda3aa/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/062cb1a0c309d70e4e099961b214e1a3/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/1c0340dbc1595cf07d7e3e2ebf9295ab/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ff1981ba319b4fb2ba4030f548a1cf9f/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/df5b36b2f49602ad648abda62e933d60/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/66b4da009bd1e4ba7389f36859869486/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d28ec8137b13df81ec6df8eb227e6239/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/421d4f82e1e324b7abd82c1c5480bbf7/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/a755799f1c9e9c035e696dee8aeb05f0/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/df62757c603fd9c3d43d07d7d5645172/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/535f28a3dbe1b6e0a7f45f980b80d508/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/300b621932f83f5409cb2d99186a86af/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/721a26faaa1211e6ddc87f40ccd9fc40/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/90d45d279d0e23a38b01a2c45bdad734/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/b093dc8977d43943efca3a353386de4b/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/cbcebdd3e2cc9d820a0dcc971640fd48/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/e9cbd00c085f7e200d82143a0e62d0d6/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/954d2620bd62951f5277d353a9c4310b/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/74df120b25e229db3cf500b2ade81e62/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/369f7973ad0de6e8123b76eafed890fa/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/644129dcb26aa43732e5cb1d20c36d2a/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6afb047bf884af4ca9d0c9360fd82c1e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/227aa325309adb5531ad496a3debe286/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d47104643bf55689a94c1115622107fa/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/70a5b20f815b24d1335bacf9e67691f3/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/a909442aa7f946246429554384a4ea53/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/bfccf5b28f1f8a7a00d4cf1435e9e837/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/b11df4ae8286bf7f0731bfe97bddbb0a/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d20f15d553b5bf7dc7f43adaee91e615/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/89c01af567e04a1159966e9c51329b9b/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce5d13f461f5dbf2bb89d659d9b6d77c/jetified-grpc-android-1.44.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/bugra/.gradle/caches/transforms-2/files-2.1/b1cf5e30a39df18fc6861b94002800dc/jetified-threetenabp-1.2.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/9c57e980e651475cf928facbe8b3aeaf/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/998d67e26b779a01d217669fe96afcb6/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:2:5-39
+		INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:1:1-41:12
+		INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:1:1-41:12
+		INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:3:5-79
+	android:name
+		ADDED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:3:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:4:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d28ec8137b13df81ec6df8eb227e6239/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d28ec8137b13df81ec6df8eb227e6239/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml:5:22-64
+uses-sdk
+INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_database] /Users/bugra/Documents/Path/garden_guard/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_database] /Users/bugra/Documents/Path/garden_guard/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/bugra/Documents/Path/garden_guard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/bugra/Documents/Path/garden_guard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/bugra/Documents/Path/garden_guard/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/bugra/Documents/Path/garden_guard/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/86669c2df96e2d0997eebe0a6352cb12/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/86669c2df96e2d0997eebe0a6352cb12/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/bugra/.gradle/caches/transforms-2/files-2.1/1b10fc0016933ae41ac2c91fc771c4f6/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/bugra/.gradle/caches/transforms-2/files-2.1/1b10fc0016933ae41ac2c91fc771c4f6/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/c16058d2685112af84a12bba2e290b42/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/c16058d2685112af84a12bba2e290b42/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/bc9254f9fcf7c007edc642833b1c842a/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/bc9254f9fcf7c007edc642833b1c842a/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/13d1a535b6d60fefc92cbf109dc689a4/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/13d1a535b6d60fefc92cbf109dc689a4/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/9b493b3190afcc1f57783030badda3aa/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/9b493b3190afcc1f57783030badda3aa/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/062cb1a0c309d70e4e099961b214e1a3/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/062cb1a0c309d70e4e099961b214e1a3/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/1c0340dbc1595cf07d7e3e2ebf9295ab/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/1c0340dbc1595cf07d7e3e2ebf9295ab/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ff1981ba319b4fb2ba4030f548a1cf9f/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ff1981ba319b4fb2ba4030f548a1cf9f/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/df5b36b2f49602ad648abda62e933d60/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/df5b36b2f49602ad648abda62e933d60/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/66b4da009bd1e4ba7389f36859869486/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/66b4da009bd1e4ba7389f36859869486/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d28ec8137b13df81ec6df8eb227e6239/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d28ec8137b13df81ec6df8eb227e6239/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/421d4f82e1e324b7abd82c1c5480bbf7/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/421d4f82e1e324b7abd82c1c5480bbf7/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/a755799f1c9e9c035e696dee8aeb05f0/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/a755799f1c9e9c035e696dee8aeb05f0/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/df62757c603fd9c3d43d07d7d5645172/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/df62757c603fd9c3d43d07d7d5645172/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/535f28a3dbe1b6e0a7f45f980b80d508/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/535f28a3dbe1b6e0a7f45f980b80d508/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/300b621932f83f5409cb2d99186a86af/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/300b621932f83f5409cb2d99186a86af/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/721a26faaa1211e6ddc87f40ccd9fc40/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/721a26faaa1211e6ddc87f40ccd9fc40/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/90d45d279d0e23a38b01a2c45bdad734/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/90d45d279d0e23a38b01a2c45bdad734/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/b093dc8977d43943efca3a353386de4b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/b093dc8977d43943efca3a353386de4b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/cbcebdd3e2cc9d820a0dcc971640fd48/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/cbcebdd3e2cc9d820a0dcc971640fd48/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/e9cbd00c085f7e200d82143a0e62d0d6/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/e9cbd00c085f7e200d82143a0e62d0d6/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/954d2620bd62951f5277d353a9c4310b/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/954d2620bd62951f5277d353a9c4310b/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/74df120b25e229db3cf500b2ade81e62/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/74df120b25e229db3cf500b2ade81e62/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/369f7973ad0de6e8123b76eafed890fa/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/369f7973ad0de6e8123b76eafed890fa/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/644129dcb26aa43732e5cb1d20c36d2a/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/644129dcb26aa43732e5cb1d20c36d2a/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6afb047bf884af4ca9d0c9360fd82c1e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6afb047bf884af4ca9d0c9360fd82c1e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/227aa325309adb5531ad496a3debe286/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/227aa325309adb5531ad496a3debe286/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d47104643bf55689a94c1115622107fa/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d47104643bf55689a94c1115622107fa/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/70a5b20f815b24d1335bacf9e67691f3/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/70a5b20f815b24d1335bacf9e67691f3/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/a909442aa7f946246429554384a4ea53/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/a909442aa7f946246429554384a4ea53/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/bfccf5b28f1f8a7a00d4cf1435e9e837/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/bfccf5b28f1f8a7a00d4cf1435e9e837/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/b11df4ae8286bf7f0731bfe97bddbb0a/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/b11df4ae8286bf7f0731bfe97bddbb0a/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d20f15d553b5bf7dc7f43adaee91e615/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d20f15d553b5bf7dc7f43adaee91e615/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/89c01af567e04a1159966e9c51329b9b/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/89c01af567e04a1159966e9c51329b9b/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce5d13f461f5dbf2bb89d659d9b6d77c/jetified-grpc-android-1.44.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce5d13f461f5dbf2bb89d659d9b6d77c/jetified-grpc-android-1.44.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/bugra/.gradle/caches/transforms-2/files-2.1/b1cf5e30a39df18fc6861b94002800dc/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/bugra/.gradle/caches/transforms-2/files-2.1/b1cf5e30a39df18fc6861b94002800dc/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/9c57e980e651475cf928facbe8b3aeaf/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/9c57e980e651475cf928facbe8b3aeaf/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/998d67e26b779a01d217669fe96afcb6/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/998d67e26b779a01d217669fe96afcb6/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bugra/Documents/Path/garden_guard/android/app/src/debug/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_database] /Users/bugra/Documents/Path/garden_guard/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /Users/bugra/Documents/Path/garden_guard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /Users/bugra/Documents/Path/garden_guard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:33:9-37:19
+MERGED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:33:9-37:19
+MERGED from [:firebase_core] /Users/bugra/Documents/Path/garden_guard/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/bugra/Documents/Path/garden_guard/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:52:9-58:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:52:9-58:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/bugra/.gradle/caches/transforms-2/files-2.1/1b10fc0016933ae41ac2c91fc771c4f6/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/bugra/.gradle/caches/transforms-2/files-2.1/1b10fc0016933ae41ac2c91fc771c4f6/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:54:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:firebase_database] /Users/bugra/Documents/Path/garden_guard/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_database] /Users/bugra/Documents/Path/garden_guard/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_database] /Users/bugra/Documents/Path/garden_guard/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_database] /Users/bugra/Documents/Path/garden_guard/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/bugra/Documents/Path/garden_guard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/bugra/Documents/Path/garden_guard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/bugra/Documents/Path/garden_guard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:26:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:26:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d28ec8137b13df81ec6df8eb227e6239/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d28ec8137b13df81ec6df8eb227e6239/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d28ec8137b13df81ec6df8eb227e6239/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d28ec8137b13df81ec6df8eb227e6239/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce5d13f461f5dbf2bb89d659d9b6d77c/jetified-grpc-android-1.44.1/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce5d13f461f5dbf2bb89d659d9b6d77c/jetified-grpc-android-1.44.1/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService
+ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-15:72
+	android:exported
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+	android:permission
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-69
+	android:name
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-107
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-22:19
+	android:exported
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-97
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
+	android:name
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+receiver#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver
+ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-31:20
+	android:exported
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-73
+	android:name
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-98
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
+	android:name
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-36:85
+	android:value
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-82
+	android:name
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:35:17-128
+provider#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-43:38
+	android:authorities
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-88
+	android:exported
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-37
+	android:initOrder
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-35
+	android:name
+		ADDED from [:firebase_messaging] /Users/bugra/Documents/Path/garden_guard/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-102
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/bugra/Documents/Path/garden_guard/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/bugra/Documents/Path/garden_guard/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/bugra/Documents/Path/garden_guard/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-63
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-76
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-15:40
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-97
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-25:20
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-101
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-24:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-84
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/bugra/Documents/Path/garden_guard/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:25-79
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/bugra/.gradle/caches/transforms-2/files-2.1/39ec363904be585fe708d0f111bfee7a/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d28ec8137b13df81ec6df8eb227e6239/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d28ec8137b13df81ec6df8eb227e6239/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:31:9-38:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:33:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:34:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:32:13-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:44:9-51:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:47:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:46:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:45:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:55:13-57:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:57:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/643f479331bd41603de5f1cc8f6eb1c5/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:56:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/bugra/.gradle/caches/transforms-2/files-2.1/1b10fc0016933ae41ac2c91fc771c4f6/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/bugra/.gradle/caches/transforms-2/files-2.1/1b10fc0016933ae41ac2c91fc771c4f6/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/bugra/.gradle/caches/transforms-2/files-2.1/1b10fc0016933ae41ac2c91fc771c4f6/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:29:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/698704a7e3b93c04678d54bdf83d2b44/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/743be447741e58edd8c65017fa774eac/jetified-transport-runtime-3.1.5/AndroidManifest.xml:33:13-132
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.1.2] /Users/bugra/.gradle/caches/transforms-2/files-2.1/d4a550f742fb8c5169f6dd7a3e8f4313/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/bugra/.gradle/caches/transforms-2/files-2.1/ce489dda481c9e83dd1039a9df77c42e/jetified-firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/3cef63ea2cff60ed854df986f304a960/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/6197422a93e3d41308eb4d1d2b092461/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/66b4da009bd1e4ba7389f36859869486/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/66b4da009bd1e4ba7389f36859869486/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/66b4da009bd1e4ba7389f36859869486/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/bugra/.gradle/caches/transforms-2/files-2.1/66b4da009bd1e4ba7389f36859869486/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/300b621932f83f5409cb2d99186a86af/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/300b621932f83f5409cb2d99186a86af/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/bugra/.gradle/caches/transforms-2/files-2.1/300b621932f83f5409cb2d99186a86af/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
